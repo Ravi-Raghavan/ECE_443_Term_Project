@@ -14,3 +14,6 @@ import numpy as np
 
 X = np.array([np.array([1, 2]), np.array([3, 4])])
 print(X[1: ])
+
+li = [np.nan, 1, 2]
+print(np.sqrt(pd.Series(li)))
