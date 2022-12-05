@@ -17,3 +17,6 @@ print(X[1: ])
 
 li = [np.nan, 1, 2]
 print(np.sqrt(pd.Series(li)))
+
+arr = [1, 2, 3, 4, 5]
+print(np.argmax(arr))
